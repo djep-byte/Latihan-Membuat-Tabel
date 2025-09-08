@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Membuat Frame</title>
+  </head>
+  <frameset rows="20%,*">
+    <frame name="tabel" src="tabel.html" scrolling="no">
+    <frameset cols="25%,*">
+      <frame name="form" src="form.html" scrolling="yes">
+      <frame name="CV" src="contohcv.html" scrolling="yes">
+    </frameset>
+  </frameset>
+</html>
